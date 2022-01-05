@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27b11dc-246c-4f6c-a83d-474233b8b50e" name="Changes" comment="update template">
+    <list default="true" id="f27b11dc-246c-4f6c-a83d-474233b8b50e" name="Changes" comment="logo update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us-v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-detail-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/article-detail-v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-detail-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/article-detail-v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-detail-v3.html" beforeDir="false" afterPath="$PROJECT_DIR$/article-detail-v3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-style-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-style-v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-style-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-style-v2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-style-v3.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-style-v3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-v3.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-v3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage-v4.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-v4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.bundle3875.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.bundle3875.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-result-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/search-result-v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-result.html" beforeDir="false" afterPath="$PROJECT_DIR$/search-result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23EsX9gO6qOvfTvkCj99DL2qPaT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,11 +46,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\W-NY-Bangla-POST\images" />
+      <recent name="C:\xampp\htdocs\W-NY-Bangla-POST\images\sport" />
+      <recent name="C:\xampp\htdocs\W-NY-Bangla-POST\images\ads" />
+      <recent name="C:\xampp\htdocs\W-NY-Bangla-POST\images\international" />
+      <recent name="C:\xampp\htdocs\W-NY-Bangla-POST\images\latest_news" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -45,7 +69,8 @@
       <workItem from="1641310619099" duration="3595000" />
       <workItem from="1641315350652" duration="200000" />
       <workItem from="1641326644398" duration="7000" />
-      <workItem from="1641399692298" duration="194000" />
+      <workItem from="1641399692298" duration="1500000" />
+      <workItem from="1641407717975" duration="6523000" />
     </task>
     <task id="LOCAL-00001" summary="update template">
       <created>1641314583025</created>
@@ -61,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641315051918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="logo update">
+      <created>1641399906922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641399906922</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update template" />
-    <option name="LAST_COMMIT_MESSAGE" value="update template" />
+    <MESSAGE value="logo update" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo update" />
   </component>
 </project>
