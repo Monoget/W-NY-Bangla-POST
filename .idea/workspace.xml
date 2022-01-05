@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f27b11dc-246c-4f6c-a83d-474233b8b50e" name="Changes" comment="logo update">
+    <list default="true" id="f27b11dc-246c-4f6c-a83d-474233b8b50e" name="Changes" comment="content update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us-v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-detail-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/article-detail-v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-detail-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/article-detail-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article-detail-v3.html" beforeDir="false" afterPath="$PROJECT_DIR$/article-detail-v3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-style-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-style-v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-style-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-style-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-style-v3.html" beforeDir="false" afterPath="$PROJECT_DIR$/category-style-v3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-v3.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-v3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage-v4.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage-v4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.bundle3875.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.bundle3875.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-result-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/search-result-v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-result.html" beforeDir="false" afterPath="$PROJECT_DIR$/search-result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +53,7 @@
       <workItem from="1641315350652" duration="200000" />
       <workItem from="1641326644398" duration="7000" />
       <workItem from="1641399692298" duration="1500000" />
-      <workItem from="1641407717975" duration="6523000" />
+      <workItem from="1641407717975" duration="9263000" />
     </task>
     <task id="LOCAL-00001" summary="update template">
       <created>1641314583025</created>
@@ -93,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641399906922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="content update">
+      <created>1641414306748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641414306748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update template" />
     <MESSAGE value="logo update" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo update" />
+    <MESSAGE value="content update" />
+    <option name="LAST_COMMIT_MESSAGE" value="content update" />
   </component>
 </project>
