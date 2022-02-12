@@ -1,0 +1,645 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : à¥¨à¥¯ à¤…à¤•à¥�â€�à¤¤à¥‚à¤¬à¤°, à¥¨à¥¦à¥§à¥ª, à¥«:à¥©à¥­:à¥§à¥ª à¤…à¤ªà¤°à¤¾à¤¹à¥�à¤¨
+    Author     : Ankur Gupta
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,400italic,700);
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:13px;
+ 
+}
+body *{
+    border-radius: 0px !important;
+}
+a{
+	color:#1570a6;
+}
+a:hover{
+	color:#083047;
+}
+ 
+ 
+.display-inline-block{
+    display:inline-block;
+}
+#contact_qid{
+	border:1px solid silver; padding:5px;
+}
+.errorMessage{
+	color:red;
+}
+.f-light{
+	font-weight:300
+}
+.container{
+    width:1170px;
+    background-color:white;   
+} 
+.thumbnail{
+	border-radius:0px; margin:0px; 
+}
+.ad-728{
+    background-color:#EFEFEF;
+    border:1px solid #DFDFDF;
+    padding:5px;
+    text-align: center;
+}
+.ad-468{
+	margin-top:5px;
+}
+.seperator_35{
+	height:35px;
+}
+.seperator_15{
+	height:15px;
+}
+ 
+#mainmenu .dropdown-menu a{
+	color:black !important;	
+} 
+#mainmenu .navbar-default{
+   
+    border-radius:0px;
+    border:none;
+    margin:0px;    
+}
+
+#mainmenu .navbar-default .navbar-inner > ul > li > a{
+    font-size:14px;
+}
+
+#mainmenu .navbar-default .navbar-nav > .open > a, 
+#mainmenu .navbar-default .navbar-nav > .open > a:hover, 
+#mainmenu .navbar-default .navbar-nav > .open > a:focus{
+    background-color:rgba(100,100,100,0.1);    
+}
+ 
+#mainmenu .dropdown-menu{
+    border-radius:0px;    
+}
+#secondmenu .navbar{
+    border-radius:0px;
+}
+#secondmenu .navbar-nav > li > a{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#secondmenu .navbar{
+    min-height:10px;
+}
+#mainmenu .searchWidget{
+    width:250px;
+}
+
+#secondmenu .navbar .navbar-nav .open .dropdown-menu > li > a:hover, 
+#secondmenu .navbar .navbar-nav .open .dropdown-menu > li > a:focus, 
+#secondmenu .navbar .navbar-nav .open .dropdown-menu > .active > a, 
+#secondmenu .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, 
+#secondmenu .navbar .navbar-nav .open .dropdown-menu > .active > a:focus{
+    color:rgb(51, 51, 51);
+}
+#secondmenu .dropdown-menu{
+    border-radius:0px;    
+}
+
+#footermenu .navbar-inner{
+   
+}
+ 
+#footermenu .navbar-inverse{
+    border:none;
+    background-color:transparent;
+    margin-bottom: 0px;
+}
+
+#footermenu .navbar-inverse .navbar-nav > .open > a, 
+#footermenu .navbar-inverse .navbar-nav > .open > a:hover,
+#footermenu .navbar-inverse .navbar-nav > .open > a:focus{
+    background-color:rgba(0,0,0,0.3);
+}
+
+#footermenu .navbar-nav > li > a{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.page-title{
+	
+}
+.page-heading{
+	font-weight:300;
+	margin:0px;
+	background-color:#1570a6;
+	padding:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	margin-bottom:20px;
+        font-size:30px;
+}
+
+.breadcrumb{
+	margin:0px;
+	border-radius:0px;
+}
+
+
+#footer{
+    color:white;
+    background-color:#505050;
+    padding-bottom:10px;
+}
+ 
+#footer .widget_title{
+    color:white;    
+}
+#footer .widget_title h1{
+    font-size:20px;
+    text-align: center;
+    font-weight:bold;
+    padding-bottom: 0px;
+}
+
+#footer .widget_body p{
+    
+    text-align: center;
+    
+}
+
+#footer .widget_body ul{
+    margin-left:0px;
+    list-style-position: inside;
+    padding-left:0px;
+ 
+    list-style: none;
+}
+#footer .widget_body li{
+	padding-top:3px;
+	padding-bottom:3px;
+        border-bottom:none;
+} 
+#footer .widget_body a{
+    color:white;
+}
+#footer .copyright{
+    
+    color:silver;
+    padding:5px;    
+}
+#footer .credit {
+    color: #ffffff;
+    border-top: 1px solid #b13434;
+    padding-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#footer .credit a{
+    color:silver;
+}
+.slider-wrapper{
+	margin-top:20px;	
+}
+.theme-default .nivo-controlNav{
+	margin:0px; padding:5px;
+}
+.theme-default .nivoSlider{
+	box-shadow:none;
+}
+.slideshow_outer{
+	background-color:#EFEFEF;
+	padding:5px;
+	margin-bottom:20px;
+}
+
+.slideshow_inner{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.title-header{	 
+	margin-bottom:10px;
+	 
+}
+
+.title-header .heading{
+	 
+ 
+	font-size:30px;
+	font-weight:100;
+	display:inline-block;
+	 
+    margin:0px;
+}
+.page-content{
+    padding-left:10px;
+    padding-right:10px;
+}
+.epost{
+    margin-bottom:35px;
+}
+.epost-title{
+	font-size:15px;
+	margin:0px;
+	margin-top:5px;	
+	background-color:#1570a6;
+	padding:5px;
+	display:inline-block;
+}
+.epost-title a{
+	color:white;
+	
+}
+.epost-title:hover{
+	background-color:#083047;
+}
+.epost-title a:hover{
+	text-decoration:none;
+}
+.epost-date{
+	margin-bottom:5px;
+	  
+	font-size:12px;
+	color:gray;
+}
+.epost-category{
+ 
+}
+.fcategorylist-block .description h4{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.fcategorylist-block .description p{
+	color:gray;
+}
+
+.edition_date{
+	font-size:14px;
+	color:white;
+	margin-left:20px;
+	font-weight:400;
+	color:rgba(255,255,255,0.7);
+}
+
+
+
+.widget{
+	/*margin-bottom:35px;*/
+}
+
+.widget_title h1{
+	
+	font-size:20px;
+	margin:0px;
+	margin-bottom:10px;
+}
+
+.widget_body ul{
+	margin:0px;
+	padding:0px;
+	list-style:none; 
+}
+.widget_body ul ul {
+	margin-left:15px;
+}
+.widget_body ul li{
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.widget_body .ed_desc{
+	color:gray;
+}
+.widget_body .epost-date{
+    text-align:left;
+	color:black !important;
+	text-transform: uppercase;
+}
+
+.page-navigation .pagination{
+    margin:0px !important;
+}
+.page-navigation{
+    padding:7px;
+    padding-top:10px;
+    background-color:#EFEFEF;
+}
+
+.title-heading{
+    border-bottom:10px solid #EFEFEF;
+    padding-bottom:10px;
+}
+
+.description{
+    margin-bottom:20px;
+}
+
+.supptabs{
+    margin-top:10px;
+}
+
+/* /epaper/index */
+
+/**********************/
+/* SUB CATEGORY BLOCK */
+/**********************/
+
+.subcategory-block{
+    padding:0px; margin:0px;
+    
+    margin-bottom:20px;
+}
+.subcategory-block .content{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom:20px solid #F0F0F0;
+}
+.subcategory-block h2{
+    font-weight: 300;
+    padding:10px;
+    margin-bottom:10px;
+    background-color:#EEEEEE;
+}
+.subcategory-block h2:hover{
+    cursor:pointer;
+    background-color:#DFDFDF;
+}
+.subcategory-block .glyphicon{
+    font-size:26px;
+}
+ 
+.subcategory-block .image {
+    width:100px;
+    float:left;
+    margin-right:10px;
+}
+
+.subcategory-block .description {
+    width:180px;
+    float:left;
+}
+
+.subcategory-block .description h3{
+    font-size:22px;
+    padding:0px; margin:0px; margin-bottom:5px;
+    
+}
+
+.subcategory-block .description p{
+    color:gray;
+    font-size:12px;
+}
+
+.pagination a{
+    border-radius:0px !important;
+}
+
+
+/* END /epaper/index */
+
+
+/* Scrollable */
+.pager-block{
+    border:1px solid #CFCFCF;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#ededed 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%,#ededed 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+    margin-bottom:5px;
+}
+
+.scrollable {
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 100%;
+    height:195px;
+}
+
+.scrollable img{
+    padding:4px;
+    border:1px solid silver;
+    margin:12px;
+    background-color:white;
+}
+
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+}
+
+.items div {
+    float:left;
+}
+.scrollable .current img{
+    border:4px solid #EFA53B;
+    padding:0px;
+}
+.browse{
+    margin-top:80px;
+    border-radius: 25px;
+}
+.browse.prev{
+    margin-left:10px;
+}
+
+/* End Scrollable */
+
+
+/* Archive Calender */
+
+ 
+
+.archive_calender{
+    float:right;
+    padding-right:10px;
+    font-size:12px; 
+    width:250px;
+}
+
+.archive_calender span{    
+    border:none !important;
+    background-color:rgba(0,0,0,0.2) !important;
+}
+
+.archive_calender input{
+	color:white;
+    background-color:  rgba(255,255,255,0.2) !important;
+    border-color:  rgba(255,255,255,0.4) !important;
+}
+.archive_calender input:hover{
+    background-color:  rgba(255,255,255,0.4) !important;
+}
+
+.topcalender{
+	padding-top:5px;
+	text-align:right;
+	padding-right:10px;
+	
+}
+ 
+.btnCalender{
+	background-color:rgba(255,255,255,0.9);
+	border:1px solid rgba(255,255,255,0.9);
+	color:#1570a6;	 
+}
+.btnCalender:hover{
+	background-color:rgba(255,255,255,0.5);
+	border:1px solid rgba(255,255,255,1);
+	color:#1570a6;	 
+}
+.btnTopCalender:hover{
+	background-color:#1570a6;
+}
+.btnTopCalender{
+	background-color:#1570a6;
+	border:none;
+}
+
+ 
+
+/* End Archive Calender */
+ 
+#ui-datepicker-div{
+    z-index:5000000000 !important;
+}
+
+/* Search Page */
+.pbox{
+    margin-bottom:15px ;
+}
+.pbox-thumb{
+
+}
+.pbox-details{
+
+}
+.pbox-title{
+    margin-top:0px;
+    font-size:24px;
+}
+
+
+ .rthumb_bar{
+        overflow: scroll;
+        min-height:500px;
+        border:1px solid silver;
+        padding:10px;
+        margin-top:20px;
+         
+        
+    }
+    .rthumb_bar a{
+        
+    }
+    .rthumb_bar .pagethumb{
+        margin-bottom:10px;
+        margin-top:10px;
+        display:block;
+        text-align: center;
+    }
+    .rthumb_bar .current img{
+        border:5px solid #EFA53B;
+        padding:0px;
+    }  
+
+
+
+/***************************************************/
+/*   REMOVAL OF RESPONSIVENESS IN NAVIGATION BAR   */
+/***************************************************/
+
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+.navbar-btn2{
+    margin-top:10px;
+}
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  /*color: #fff !important;*/
+   
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+ /* color: #999 !important;*/
+  background-color: transparent !important;
+}
+
+
