@@ -1,3 +1,9 @@
+<?php
+if(!isset($_COOKIE['date'])){
+    setcookie('date', '11-02-2022');
+    header('location:প্রথম_পাতা');
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,10 +23,7 @@
 
             </div>
             <div class="seperator_15"></div>
-            <a class="thumbnail imagethumb" target="_blank"
-               href="paper_image/page_image/1.png"><img
-                        src="paper_image/page_image/1.png"
-                        alt=""/></a>
+            <a class="thumbnail imagethumb" target="_blank" href="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>1.png"><img src="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>1.png" alt=""/></a>
         </div>
         <div class="col-xs-3">
             <div class="seperator_15"></div>
