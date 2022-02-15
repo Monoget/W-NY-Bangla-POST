@@ -75,5 +75,15 @@ if(!isset($_COOKIE['date'])){
 <?php require_once 'includes/footer.php'; ?>
 </body>
 </html>
+<script>
+    $(function () {
+        // initialize scrollable
+        var currentpage = 9;
+        var seekto = Math.ceil(currentpage / 4) - 1;
+        $(".scrollable").scrollable();
+        var api = $(".scrollable").data("scrollable");
+        api.seekTo(seekto);
+    });
+</script>
 
 
