@@ -31,8 +31,8 @@ if(!isset($_COOKIE['date'])){
         </div>
         <div class="seperator_15"></div>
         <a class="thumbnail imagethumb" target="_blank"
-           href="paper_image/page_image/7.png"><img
-                    src="paper_image/page_image/7.png"
+           href="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>7.png"><img
+                    src="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>7.png"
                     alt=""/></a>
     </div>
     <div class="col-xs-3">
