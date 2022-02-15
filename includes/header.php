@@ -61,15 +61,27 @@
                     </style>
                     <div class="btn-group">
                         <button type="button" class="btn btn-danger dropdown-toggle scrollable-menu-btn navbar-btn2"
-                                data-toggle="dropdown"><span id="date_select">11 Feb 2022</span> <span
+                                data-toggle="dropdown"><span id="date_select"></span> <span
                                     class="caret"></span></button>
                         <ul class="dropdown-menu scrollable-menu" role="menu">
-                            <li>
-                                <a href="#" onclick="myFunction('2022-02-11');">11 Feb 2022</a>
-                            </li>
-                            <li>
-                                <a href="#" onclick="myFunction('2022-02-04');">04 Feb 2022</a>
-                            </li>
+                            <?php
+                            $data_list = $db_handle->runQuery("SELECT * FROM publishdate order by id desc");
+                            $row_count = $db_handle->numRows("SELECT * FROM publishdate order by id desc");
+
+                            for ($i = 0; $i < $row_count; $i++) {
+                            ?>
+                                <li>
+                                    <a href="#" onclick="myFunction('<?php echo $data_list[$i]["date"]; ?>');">
+                                        <?php
+                                        $timestamp = strtotime($data_list[$i]["date"]);
+                                        $day = date('d M Y', $timestamp);
+                                        echo $day;
+                                        ?>
+                                    </a>
+                                </li>
+                            <?php
+                            }
+                            ?>
                         </ul>
                     </div>
 
@@ -100,7 +112,7 @@
 
 
     <div class="breadcrumb topbread">
-        <a href="প্রথম_পাতাl">Home</a>
+        <a href="প্রথম_পাতা">Home</a>
         <div style="padding-top:10px; padding-bottom:10px; min-height:800px;">
 
             <article class="edition-block">
@@ -114,7 +126,7 @@
                             </style>
                             <div class="input-group cal_outer">
                                 <input style="" class="form-control" type="text" id="datetext_cal" name="datetext_cal"
-                                       value="11-Feb-2022"/>
+                                       value=""/>
                                 <span class="input-group-btn">
 		<button id="datebtn_cal" style="" class="btn btn-primary btnCalender" href="#"><span
                     class="glyphicon glyphicon-calendar"></span></button>
@@ -123,7 +135,17 @@
 
 
                             <script>
-                                var array = ["2022-01-14", "2022-01-21", "2022-01-28", "2022-02-04", "2022-02-11"];
+                                var array = [
+                                    <?php
+                                    $data_list = $db_handle->runQuery("SELECT * FROM publishdate order by id desc");
+                                    $row_count = $db_handle->numRows("SELECT * FROM publishdate order by id desc");
+                                    $string='';
+                                    for ($i = 0; $i < $row_count; $i++) {
+                                        $string.='"'.$data_list[$i]["date"].'",';
+                                    }
+                                    echo substr($string, 0, -1);
+                                    ?>
+                                ];
 
                                 $(document).on("click", "#datebtn_cal", function (e) {
                                     e.preventDefault();

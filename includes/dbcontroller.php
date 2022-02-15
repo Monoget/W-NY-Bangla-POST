@@ -3,8 +3,7 @@ class DBController {
     private $host = "localhost";
     private $user = "root";
     private $password = "";
-    private $database = "blog_samples";
-    private $from_email='noreply@buffalostardrivingschool.com';
+    private $database = "nybanglapost";
     private $conn;
 
     function __construct() {
