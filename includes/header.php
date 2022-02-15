@@ -265,112 +265,112 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%96%E0%A6%AC%E0%A6%B0") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="খবর"><img
+                                           href="ইমিগ্রেশনের_আদ্যপান্ত"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>2.png"
-                                                    alt="খবর"/></a>
+                                                    alt="ইমিগ্রেশনের আদ্যপান্ত"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%87%E0%A6%AE%E0%A6%BF%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="ইমিগ্রেশনের_আদ্যপান্ত"><img
+                                           href="নিউ_ইয়র্ক_ট্যাক্সেশন"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>3.png"
-                                                    alt="ইমিগ্রেশনের আদ্যপান্ত"/></a>
+                                                    alt="নিউইয়র্ক ট্যাক্সেশন"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%A8%E0%A6%BF%E0%A6%89_%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%B0%E0%A7%8D%E0%A6%95_%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B6%E0%A6%A8") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="নিউ_ইয়র্ক_ট্যাক্সেশন"><img
+                                           href="ইসলামিক_বার্তা"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>4.png"
-                                                    alt="নিউ ইয়র্ক ট্যাক্সেশন"/></a>
+                                                    alt="ইসলামিক বার্তা"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%95_%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="ইসলামিক_বার্তা"><img
+                                           href="অন্যান্য_খবর-৫"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>5.png"
-                                                    alt="ইসলামিক বার্তা"/></a>
+                                                    alt="অন্যান্য খবর - ৫"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%A8%E0%A6%BF%E0%A6%89_%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%B0%E0%A7%8D%E0%A6%95_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A7%AC") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="নিউ_ইয়র্ক_বাংলা_পোস্ট-৬"><img
+                                           href="অন্যান্য_খবর-৬"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>6.png"
-                                                    alt="নিউ ইয়র্ক বাংলা পোস্ট - ৬"/></a>
+                                                    alt="অন্যান্য খবর - ৬"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%A8%E0%A6%BF%E0%A6%89_%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%B0%E0%A7%8D%E0%A6%95_%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE_%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A7%AD") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="নিউ_ইয়র্ক_বাংলা_পোস্ট-৭"><img
+                                           href="ব্যাবসায়-বানিজ্য"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>7.png"
-                                                    alt="নিউ ইয়র্ক বাংলা পোস্ট - ৭"/></a>
+                                                    alt="ব্যাবসায় বানিজ্য"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="4"
-                                           href="খেলার_পাতা"><img
+                                           href="সাস্থ্য_সুরক্ষা"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>8.png"
-                                                    alt="খেলার পাতা"/></a>
+                                                    alt="সাস্থ্য সুরক্ষা"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B8%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF_%E0%A6%B8%E0%A7%81%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা" data-page="1"
-                                           href="সাস্থ্য_সুরক্ষা"><img
+                                           href="খেলার_পাতা"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>9.png"
-                                                    alt="সাস্থ্য সুরক্ষা"/></a>
+                                                    alt="খেলার পাতা"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%AF") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="ব্যাবসায়-বানিজ্য"><img
+                                           href="চাকরির_খবর"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>10.png"
-                                                    alt="ব্যাবসায়-বানিজ্য"/></a>
+                                                    alt="চাকরির খবর"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0_%E0%A6%96%E0%A6%AC%E0%A6%B0-%E0%A7%A7") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="চাকরির_খবর-১"><img
+                                           href="বিজ্ঞাপন"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>11.png"
-                                                    alt="চাকরির খবর - ১"/></a>
+                                                    alt="বিজ্ঞাপন"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0_%E0%A6%96%E0%A6%AC%E0%A6%B0-%E0%A7%A8") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="চাকরির_খবর-২"><img
+                                           href="ভ্রমন_বিলাস"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>12.png"
-                                                    alt="চাকরির খবর - ২"/></a>
+                                                    alt="ভ্রমন বিলাস"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AD%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A8_%E0%A6%AC%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A6%B8") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="ভ্রমন_বিলাস"><img
+                                           href="আপস্টেট"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>13.png"
-                                                    alt="ভ্রমন বিলাস"/></a>
+                                                    alt="আপস্টেট"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%86%E0%A6%AA%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%9F") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="আপস্টেট"><img
+                                           href="বাফেলো-১৪"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>14.png"
-                                                    alt="আপস্টেট"/></a>
+                                                    alt="বাফেলো - ১৪"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AC%E0%A6%BE%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%8B") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="বাফেলো"><img
+                                           href="বাফেলো-১৫"><img
                                                     src="paper_image/thumbnail_image/<?php echo $_COOKIE['date'].'/'; ?>15.png"
-                                                    alt="বাফেলো"/></a>
+                                                    alt="বাফেলো - ১৫"/></a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
@@ -428,16 +428,8 @@
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="খবর"><img
-                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>2.png"
-                                                                    alt="খবর"/></a>
-                                                        <div>খবর</div>
-                                                    </div>
-                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
-                                                                class="pagethumb thumbnail" data-id="1394"
-                                                                data-alias="আজকের-পত্রিকা" data-page="3"
                                                                 href="ইমিগ্রেশনের_আদ্যপান্ত"><img
-                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>3.png"
+                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>2.png"
                                                                     alt="ইমিগ্রেশনের আদ্যপান্ত"/></a>
                                                         <div>ইমিগ্রেশনের আদ্যপান্ত</div>
                                                     </div>
@@ -445,101 +437,109 @@
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
                                                                 href="নিউ_ইয়র্ক_ট্যাক্সেশন"><img
+                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>3.png"
+                                                                    alt="নিউইয়র্ক ট্যাক্সেশন"/></a>
+                                                        <div>নিউইয়র্ক ট্যাক্সেশন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="3"
+                                                                href="ইসলামিক_বার্তা"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>4.png"
-                                                                    alt="নিউ ইয়র্ক ট্যাক্সেশন"/></a>
-                                                        <div>নিউ ইয়র্ক ট্যাক্সেশন</div>
+                                                                    alt="ইসলামিক বার্তা"/></a>
+                                                        <div>ইসলামিক বার্তা</div>
                                                     </div>
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="ইসলামিক_বার্তা"><img
+                                                                href="অন্যান্য_খবর-৫"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>5.png"
-                                                                    alt="ইসলামিক বার্তা"/></a>
-                                                        <div>ইসলামিক বার্তা</div>
+                                                                    alt="অন্যান্য খবর - ৫"/></a>
+                                                        <div>অন্যান্য খবর - ৫</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="নিউ_ইয়র্ক_বাংলা_পোস্ট-৬"><img
+                                                                href="অন্যান্য_খবর-৬"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>6.png"
-                                                                    alt="নিউ ইয়র্ক বাংলা পোস্ট - ৬"/></a>
-                                                        <div>নিউ ইয়র্ক বাংলা পোস্ট - ৬</div>
+                                                                    alt="অন্যান্য খবর - ৬"/></a>
+                                                        <div>অন্যান্য খবর - ৬</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="নিউ_ইয়র্ক_বাংলা_পোস্ট-৭"><img
+                                                                href="ব্যাবসায়-বানিজ্য"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>7.png"
-                                                                    alt="নিউ ইয়র্ক বাংলা পোস্ট - ৭"/></a>
-                                                        <div>নিউ ইয়র্ক বাংলা পোস্ট - ৭</div>
+                                                                    alt="ব্যাবসায় বানিজ্য"/></a>
+                                                        <div>ব্যাবসায় বানিজ্য</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="4"
-                                                                href="খেলার_পাতা"><img
-                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>8.png"
-                                                                    alt="খেলার পাতা"/></a>
-                                                        <div>খেলার পাতা</div>
-                                                    </div>
-                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
-                                                                class="current pagethumb thumbnail" data-id="1394"
-                                                                data-alias="আজকের-পত্রিকা" data-page="1"
                                                                 href="সাস্থ্য_সুরক্ষা"><img
-                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>9.png"
+                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>8.png"
                                                                     alt="সাস্থ্য সুরক্ষা"/></a>
                                                         <div>সাস্থ্য সুরক্ষা</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="current pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="1"
+                                                                href="খেলার_পাতা"><img
+                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>9.png"
+                                                                    alt="খেলার পাতা"/></a>
+                                                        <div>খেলার পাতা</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="ব্যাবসায়-বানিজ্য"><img
+                                                                href="চাকরির_খবর"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>10.png"
-                                                                    alt="ব্যাবসায়-বানিজ্য"/></a>
-                                                        <div>ব্যাবসায়-বানিজ্য</div>
+                                                                    alt="চাকরির_খবর"/></a>
+                                                        <div>চাকরির_খবর</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="চাকরির_খবর-১"><img
+                                                                href="বিজ্ঞাপন"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>11.png"
-                                                                    alt="চাকরির খবর - ১"/></a>
-                                                        <div>চাকরির খবর - ১</div>
+                                                                    alt="বিজ্ঞাপন"/></a>
+                                                        <div>বিজ্ঞাপন</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="চাকরির_খবর-২"><img
+                                                                href="ভ্রমন_বিলাস"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>12.png"
-                                                                    alt="চাকরির খবর - ২"/></a>
-                                                        <div>চাকরির খবর - ২</div>
+                                                                    alt="ভ্রমন বিলাস"/></a>
+                                                        <div>ভ্রমন বিলাস</div>
                                                     </div>
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="ভ্রমন_বিলাস"><img
-                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>13.png"
-                                                                    alt="ভ্রমন বিলাস"/></a>
-                                                        <div>ভ্রমন বিলাস</div>
-                                                    </div>
-                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
-                                                                class="pagethumb thumbnail" data-id="1394"
-                                                                data-alias="আজকের-পত্রিকা" data-page="2"
                                                                 href="আপস্টেট"><img
-                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>14.png"
+                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>13.png"
                                                                     alt="আপস্টেট"/></a>
                                                         <div>আপস্টেট</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="2"
+                                                                href="বাফেলো-১৪"><img
+                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>14.png"
+                                                                    alt="বাফেলো - ১৪"/></a>
+                                                        <div>বাফেলো - ১৪</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="বাফেলো"><img
+                                                                href="বাফেলো-১৫"><img
                                                                     src="paper_image/box_image/<?php echo $_COOKIE['date'].'/'; ?>15.png"
-                                                                    alt="বাফেলো"/></a>
-                                                        <div>বাফেলো</div>
+                                                                    alt="বাফেলো - ১৫"/></a>
+                                                        <div>বাফেলো - ১৫</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"

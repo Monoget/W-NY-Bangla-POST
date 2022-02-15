@@ -2,33 +2,33 @@ RewriteEngine on
 
 RewriteRule ^প্রথম_পাতা index.php [NC,L]
 
-RewriteRule ^খবর page_2.php [NC,L]
+RewriteRule ^ইমিগ্রেশনের_আদ্যপান্ত page_2.php [NC,L]
 
-RewriteRule ^ইমিগ্রেশনের_আদ্যপান্ত page_3.php [NC,L]
+RewriteRule ^নিউ_ইয়র্ক_ট্যাক্সেশন page_3.php [NC,L]
 
-RewriteRule ^নিউ_ইয়র্ক_ট্যাক্সেশন page_4.php [NC,L]
+RewriteRule ^ইসলামিক_বার্তা page_4.php [NC,L]
 
-RewriteRule ^ইসলামিক_বার্তা page_5.php [NC,L]
+RewriteRule ^অন্যান্য_খবর-৫ page_5.php [NC,L]
 
-RewriteRule ^নিউ_ইয়র্ক_বাংলা_পোস্ট-৬ page_6.php [NC,L]
+RewriteRule ^অন্যান্য_খবর-৬ page_6.php [NC,L]
 
-RewriteRule ^নিউ_ইয়র্ক_বাংলা_পোস্ট-৭ page_7.php [NC,L]
+RewriteRule ^ব্যাবসায়-বানিজ্য page_7.php [NC,L]
 
-RewriteRule ^খেলার_পাতা page_8.php [NC,L]
+RewriteRule ^সাস্থ্য_সুরক্ষা page_8.php [NC,L]
 
-RewriteRule ^সাস্থ্য_সুরক্ষা page_9.php [NC,L]
+RewriteRule ^খেলার_পাতা page_9.php [NC,L]
 
-RewriteRule ^ব্যাবসায়-বানিজ্য page_10.php [NC,L]
+RewriteRule ^চাকরির_খবর page_10.php [NC,L]
 
-RewriteRule ^চাকরির_খবর-১ page_11.php [NC,L]
+RewriteRule ^বিজ্ঞাপন page_11.php [NC,L]
 
-RewriteRule ^চাকরির_খবর-২ page_12.php [NC,L]
+RewriteRule ^ভ্রমন_বিলাস page_12.php [NC,L]
 
-RewriteRule ^ভ্রমন_বিলাস page_13.php [NC,L]
+RewriteRule ^আপস্টেট page_13.php [NC,L]
 
-RewriteRule ^আপস্টেট page_14.php [NC,L]
+RewriteRule ^বাফেলো-১৪ page_14.php [NC,L]
 
-RewriteRule ^বাফেলো page_15.php [NC,L]
+RewriteRule ^বাফেলো-১৫ page_15.php [NC,L]
 
 RewriteRule ^শেষের_পাতা page_16.php [NC,L]
 

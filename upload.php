@@ -121,15 +121,15 @@
                                    required/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">
-                            <label>Thumb files</label>
+                            <label>Thumb files (120 X 260)</label>
                             <input type="file" class="form-control" name="thumb_file[]" multiple/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">
-                            <label>Box files</label>
+                            <label>Box files (170 X 230)</label>
                             <input type="file" class="form-control" name="box_file[]" multiple/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">
-                            <label>Paper files</label>
+                            <label>Paper files (1800 X 2400)</label>
                             <input type="file" class="form-control" name="paper_image_file[]" multiple/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;">
