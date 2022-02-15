@@ -1,3 +1,16 @@
+<?php
+require_once("includes/dbcontroller.php");
+$db_handle = new DBController();
+if(!isset($_COOKIE['date'])){
+    $data = $db_handle->runQuery("SELECT * FROM publishdate order by id desc limit 1");
+    $orderdate = explode('-', $data[0]["date"]);
+    $year = $orderdate[0];
+    $month   = $orderdate[1];
+    $day  = $orderdate[2];
+    setcookie('date', $day.'-'.$month.'-'.$year);
+    header('location:আপস্টেট');
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
