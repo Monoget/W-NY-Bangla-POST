@@ -137,7 +137,7 @@
                             <script>
                                 var array = [
                                     <?php
-                                    $data_list = $db_handle->runQuery("SELECT * FROM publishdate order by id desc");
+                                    $data_list = $db_handle->runQuery("SELECT * FROM publishdate order by id asc");
                                     $row_count = $db_handle->numRows("SELECT * FROM publishdate order by id desc");
                                     $string='';
                                     for ($i = 0; $i < $row_count; $i++) {
@@ -242,7 +242,6 @@
                         api.seekTo(seekto);
                     });
                 </script>
-
                 <div class=" pager-block">
                     <div class="row">
                         <!-- "previous page" action -->
