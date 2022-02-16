@@ -117,7 +117,12 @@
 
             <article class="edition-block">
                 <header class="page-title">
-                    <h1 class="page-heading">আজকের পত্রিকা
+                    <h1 class="page-heading">
+                        <?php
+                        $timestamp = strtotime($_COOKIE["date"]);
+                        $day = date('l, F j, Y', $timestamp);
+                        echo banglaDate($day).' পত্রিকা';
+                        ?>
                         <div class="archive_calender">
                             <style>
                                 .ui-datepicker {
