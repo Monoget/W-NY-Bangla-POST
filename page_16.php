@@ -30,10 +30,11 @@ if(!isset($_COOKIE['date'])){
 
         </div>
         <div class="seperator_15"></div>
-        <a class="thumbnail imagethumb" target="_blank"
-           href="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>16.png"><img
-                    src="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>16.png"
-                    alt=""/></a>
+        <script>
+            document.write("<a class='thumbnail imagethumb' target='_blank' href='paper_image/page_image/" + getCookie("date") + "/16.png'>" +
+                "<img src='paper_image/page_image/" + getCookie("date") + "/16.png' alt='শেষের পাতা'/>" +
+                "</a>");
+        </script>
     </div>
     <div class="col-xs-3">
         <div class="seperator_15"></div>

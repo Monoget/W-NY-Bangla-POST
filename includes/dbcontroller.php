@@ -7,11 +7,11 @@ class DBController {
     private $conn;
 
     function __construct() {
-        if($_SERVER['SERVER_NAME']=="buffalostardrivingschool.com"){
+        if($_SERVER['SERVER_NAME']=="nybanglapost.com"||$_SERVER['SERVER_NAME']=="www.nybanglapost.com"){
             $this->host = "localhost";
-            $this->user = "uof4cdn8ikli8";
-            $this->password = "em]@x&58&33k";
-            $this->database = "dbk50gyyyitzxn";
+            $this->user = "ugda6t7vlbg3u";
+            $this->password = "@gbz2et_gf$@";
+            $this->database = "dbn6jp0qc1bhev";
         }
 
         $this->conn = $this->connectDB();

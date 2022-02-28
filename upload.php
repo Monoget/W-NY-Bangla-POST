@@ -1,3 +1,16 @@
+<?php
+require_once("includes/dbcontroller.php");
+$db_handle = new DBController();
+if(!isset($_COOKIE['date'])){
+    $data = $db_handle->runQuery("SELECT * FROM publishdate order by id desc limit 1");
+    $orderdate = explode('-', $data[0]["date"]);
+    $year = $orderdate[0];
+    $month   = $orderdate[1];
+    $day  = $orderdate[2];
+    setcookie('date', $day.'-'.$month.'-'.$year);
+    header('location:ZKM3FLPXQ0UMMBCE');
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,8 +33,12 @@
 
         if (!file_exists('paper_image/page_image/' . $file_name)) {
             mkdir('paper_image/page_image/' . $file_name, 0777, true);
+
+            $time = strtotime($file_name);
+            $newformat = date('Y-m-d',$time);
+
+            $billing_id = $db_handle->insertQuery("INSERT INTO `publishdate`(`date`) VALUES ('$newformat')");
         }
-        $billing_id = $db_handle->insertQuery("INSERT INTO `publishdate`(`date`) VALUES ('$file_name')");
     }
 
     if (isset($_POST['upload_image'])) {
@@ -106,7 +123,7 @@
                 <form action="" method="post">
                     <div class="row">
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">
-                            <input type="date" class="form-control" name="file_name" placeholder="Thumb File Name"
+                            <input type="text" class="form-control" name="file_name" placeholder="File Name: DD-MM-YYYY"
                                    required/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;">
@@ -117,7 +134,7 @@
                 <form action="" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">
-                            <input type="text" class="form-control" name="file_name" placeholder="Thumb File Name"
+                            <input type="text" class="form-control" name="file_name" placeholder="File Name: DD-MM-YYYY"
                                    required/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">

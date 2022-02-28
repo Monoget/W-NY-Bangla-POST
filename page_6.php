@@ -8,7 +8,7 @@ if(!isset($_COOKIE['date'])){
     $month   = $orderdate[1];
     $day  = $orderdate[2];
     setcookie('date', $day.'-'.$month.'-'.$year);
-    header('location:নিউ_ইয়র্ক_বাংলা_পোস্ট-৬');
+    header('location:অন্যান্য_খবর-৬');
 }
 ?>
 <!DOCTYPE html>
@@ -30,10 +30,11 @@ if(!isset($_COOKIE['date'])){
 
         </div>
         <div class="seperator_15"></div>
-        <a class="thumbnail imagethumb" target="_blank"
-           href="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>6.png"><img
-                    src="paper_image/page_image/<?php echo $_COOKIE['date'].'/'; ?>6.png"
-                    alt=""/></a>
+        <script>
+            document.write("<a class='thumbnail imagethumb' target='_blank' href='paper_image/page_image/" + getCookie("date") + "/6.png'>" +
+                "<img src='paper_image/page_image/" + getCookie("date") + "/6.png' alt='অন্যান্য খবর'/>" +
+                "</a>");
+        </script>
     </div>
     <div class="col-xs-3">
         <div class="seperator_15"></div>
