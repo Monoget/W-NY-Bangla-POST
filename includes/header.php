@@ -6,7 +6,40 @@
         upgradeTitle: "Upgrade"
     });
 </script>
+<script>
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
 
+    function eraseCookie(name) {
+        document.cookie = name + '=;';
+    }
+
+    function setCookie(name, value) {
+        document.cookie = name + '=' + value + ';';
+    }
+
+    const t = new Date().getDate() + (6 - new Date().getDay() - 1) ;
+    const lastFriday = new Date();
+    lastFriday.setDate(t);
+
+    let ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(lastFriday);
+    let mo = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(lastFriday);
+    let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(lastFriday);
+
+    let date  = da+'-'+mo+'-'+ye;
+    if(getCookie("date")===null){
+        setCookie("date",date);
+        location.reload();
+    }
+</script>
 
 <section class="container outer">
     <header id="header">
@@ -117,26 +150,8 @@
 
             <article class="edition-block">
                 <header class="page-title">
-                    <h1 class="page-heading">
+                    <h1 class="page-heading" id="heading">
                         <script>
-                            function getCookie(name) {
-                                var nameEQ = name + "=";
-                                var ca = document.cookie.split(';');
-                                for (var i = 0; i < ca.length; i++) {
-                                    var c = ca[i];
-                                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-                                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-                                }
-                                return null;
-                            }
-
-                            function eraseCookie(name) {
-                                document.cookie = name + '=;';
-                            }
-
-                            function setCookie(name, value) {
-                                document.cookie = name + '=' + value + ';';
-                            }
 
                             let finalEnlishToBanglaNumber={'0':'০','1':'১','2':'২','3':'৩','4':'৪','5':'৫','6':'৬','7':'৭','8':'৮','9':'৯'};
 
@@ -148,7 +163,7 @@
                                 return retStr;
                             };
 
-                            let date=getCookie("date");
+                            date=getCookie("date");
 
                             let bangla_converted_number=date.getDigitBanglaFromEnglish();
 

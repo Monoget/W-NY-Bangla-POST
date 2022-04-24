@@ -1,15 +1,6 @@
 <?php
 require_once("includes/dbcontroller.php");
 $db_handle = new DBController();
-if(!isset($_COOKIE['date'])){
-    $data = $db_handle->runQuery("SELECT * FROM publishdate order by id desc limit 1");
-    $orderdate = explode('-', $data[0]["date"]);
-    $year = $orderdate[0];
-    $month   = $orderdate[1];
-    $day  = $orderdate[2];
-    setcookie('date', $day.'-'.$month.'-'.$year);
-    header('location:ZKM3FLPXQ0UMMBCE');
-}
 ?>
 <!DOCTYPE html>
 <html>
@@ -138,7 +129,7 @@ if(!isset($_COOKIE['date'])){
                                    required/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">
-                            <label>Thumb files (120 X 260)</label>
+                            <label>Thumb files (120 X 160)</label>
                             <input type="file" class="form-control" name="thumb_file[]" multiple/>
                         </div>
                         <div class="col-12" style="margin-bottom: 30px;margin-left: 30px;margin-right: 30px;">

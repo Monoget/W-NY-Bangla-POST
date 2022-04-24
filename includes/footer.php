@@ -26,8 +26,8 @@
             <h1 style="color: #ffffff;">President &amp; Editor: SK Ehteshamul Sakif Eccha</h1>
         </header>
         <div class='widget_body'>
-            <p> 37-23 72nd st, 2nd Floor, Room 2</br>
-                Jackson Heights, NY 11372</br>
+            <p> 69-11D, Roosevelt Ave, Woodside,</br>
+                NY 11377, United States</br>
                 Email: nybanglapost@gmail.com</br>
                 Web: www.nybanglapost.com</br>
                 <span style="font-size: 15px;font-weight: 900;">Phone: (718) 970-7888</span></br>
