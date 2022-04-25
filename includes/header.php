@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-xs-4">
 
-                <a href="প্রথম_পাতা">
+                <a href="প্রথম-পাতা">
                     <img src="uploads/black.png" alt="নিউইয়র্ক বাংলা পোস্ট"/>
                 </a>
             </div>
@@ -63,7 +63,7 @@
         <div class="navbar navbar-default navbar-inverse">
             <div class="navbar-inner">
                 <ul class="nav navbar-nav">
-                    <li><a rel="nofollow" href="প্রথম_পাতা"><span class='glyphicon glyphicon-home'></span></a></li>
+                    <li><a rel="nofollow" href="প্রথম-পাতা"><span class='glyphicon glyphicon-home'></span></a></li>
                     <li><a target="_blank" href="#">নিউজ সংস্করণ</a></li>
                 </ul>
 
@@ -145,7 +145,7 @@
 
 
     <div class="breadcrumb topbread">
-        <a href="প্রথম_পাতা">Home</a>
+        <a href="প্রথম-পাতা">Home</a>
         <div style="padding-top:10px; padding-bottom:10px; min-height:800px;">
 
             <article class="edition-block">
@@ -279,7 +279,7 @@
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE" || $_SERVER['REQUEST_URI'] == "/") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা" data-page="1"
-                                           href="প্রথম_পাতা">
+                                           href="প্রথম-পাতা">
                                             <script>
                                                 document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/1.png' alt='প্রথম পাতা'/>");
                                             </script>
@@ -289,9 +289,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%87%E0%A6%AE%E0%A6%BF%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%86%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4") echo "current"; ?>"
                                            data-id="1395" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="ইমিগ্রেশনের_আদ্যপান্ত">
+                                           href="সম্পাদকীয়">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/2.png' alt='ইমিগ্রেশনের আদ্যপান্ত'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/2.png' alt='সম্পাদকীয়'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -299,9 +299,19 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%A8%E0%A6%BF%E0%A6%89_%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%B0%E0%A7%8D%E0%A6%95_%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B6%E0%A6%A8") echo "current"; ?>"
                                            data-id="1396" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="নিউ_ইয়র্ক_ট্যাক্সেশন">
+                                           href="আন্তর্জাতিক">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/3.png' alt='নিউইয়র্ক ট্যাক্সেশন'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/3.png' alt='আন্তর্জাতিক'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%A8%E0%A6%BF%E0%A6%89_%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%B0%E0%A7%8D%E0%A6%95_%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B6%E0%A6%A8") echo "current"; ?>"
+                                           data-id="1396" data-alias="আজকের-পত্রিকা"
+                                           data-page="3"
+                                           href="সাহিত্য-সম্ভার">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/4.png' alt='সাহিত্য সম্ভার'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -309,9 +319,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%95_%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
                                            data-id="1397" data-alias="আজকের-পত্রিকা"
                                            data-page="4"
-                                           href="ইসলামিক_বার্তা">
+                                           href="ব্যবসা-বাণিজ্য">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/4.png' alt='ইসলামিক বার্তা'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/5.png' alt='ব্যবসা বাণিজ্য'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -319,9 +329,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF_%E0%A6%96%E0%A6%AC%E0%A6%B0-%E0%A7%AB") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="অন্যান্য_খবর-৫">
+                                           href="তথ্য-ও-প্রযুক্তি">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/5.png' alt='অন্যান্য খবর - ৫'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/6.png' alt='তথ্য ও প্রযুক্তি'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -329,9 +339,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF_%E0%A6%96%E0%A6%AC%E0%A6%B0-%E0%A7%AC") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="অন্যান্য_খবর-৬">
+                                           href="ভ্রমন-বিলাস">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/6.png' alt='অন্যান্য খবর - ৬'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/7.png' alt='খেলাধুলা'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -339,9 +349,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%AF") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="ব্যাবসায়-বানিজ্য">
+                                           href="বিজ্ঞাপন-১">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/7.png' alt='ব্যাবসায় বানিজ্য'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/8.png' alt='বিজ্ঞাপন'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -349,18 +359,18 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B8%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF_%E0%A6%B8%E0%A7%81%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="4"
-                                           href="সাস্থ্য_সুরক্ষা">
+                                           href="বাংলাদেশ">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/8.png' alt='সাস্থ্য সুরক্ষা'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/9.png' alt='স্বাস্থ্য সুরক্ষা'/>");
                                             </script>
                                         </a>
                                     </div>
                                     <div>
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা" data-page="1"
-                                           href="খেলার_পাতা">
+                                           href="খেলাধুলা">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/9.png' alt='খেলার পাতা'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/10.png' alt='খেলাধুলা'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -368,9 +378,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0_%E0%A6%96%E0%A6%AC%E0%A6%B0") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="চাকরির_খবর">
+                                           href="বিজ্ঞাপন-২">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/10.png' alt='চাকরির খবর'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/11.png' alt='বিজ্ঞাপন'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -378,9 +388,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%AA%E0%A6%A8") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="বিজ্ঞাপন">
+                                           href="বাংলাদেশ">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/11.png' alt='বিজ্ঞাপন'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/12.png' alt='বাংলাদেশ'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -388,19 +398,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AD%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A8_%E0%A6%AC%E0%A6%BF%E0%A6%B2%E0%A6%BE%E0%A6%B8") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="ভ্রমন_বিলাস">
+                                           href="বিজ্ঞাপন-৩">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/12.png' alt='ভ্রমন বিলাস'/>");
-                                            </script>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%86%E0%A6%AA%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%9F") echo "current"; ?>"
-                                           data-id="1394" data-alias="আজকের-পত্রিকা"
-                                           data-page="3"
-                                           href="আপস্টেট">
-                                            <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/13.png' alt='আপস্টেট'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/13.png' alt='বিজ্ঞাপন'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -408,9 +408,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AC%E0%A6%BE%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%8B-%E0%A7%A7%E0%A7%AA") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="2"
-                                           href="বাফেলো-১৪">
+                                           href="শিক্ষা">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/14.png' alt='বাফেলো - ১৪'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/14.png' alt='শিক্ষা'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -418,9 +418,9 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%AC%E0%A6%BE%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%8B-%E0%A7%A7%E0%A7%AB") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="3"
-                                           href="বাফেলো-১৫">
+                                           href="জীবনী">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/15.png' alt='বাফেলো - ১৫'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/15.png' alt='জীবনী'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -428,9 +428,248 @@
                                         <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
                                            data-id="1394" data-alias="আজকের-পত্রিকা"
                                            data-page="4"
-                                           href="শেষের_পাতা">
+                                           href="আবশ্যক">
                                             <script>
-                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/16.png' alt='শেষের পাতা'/>");
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/16.png' alt='আবশ্যক'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বিনোদন">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/17.png' alt='বিনোদন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="লাইফ-স্টাইল">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/18.png' alt='লাইফ স্টাইল'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বিজ্ঞাপন-৪">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/19.png' alt='বিজ্ঞাপন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="জাম্প-পেইজ">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/20.png' alt='জাম্প পেইজ'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="ক্লাসিফাইড-১">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/21.png' alt='ক্লাসিফাইড'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="রসুইঘর">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/22.png' alt='রসুইঘর'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="ক্লাসিফাইড-২">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/23.png' alt='ক্লাসিফাইড'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="আইন">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/24.png' alt='আইন'/>");
+                                            </script>
+                                        </a>
+                                    </div><div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="আপস্টেট">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/25.png' alt='আপস্টেট'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="রাজনীতি">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/26.png' alt='রাজনীতি'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="অপরাধ">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/27.png' alt='অপরাধ'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="ইসলামিক-বার্তা">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/28.png' alt='ইসলামিক বার্তা'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বিজ্ঞাপন-৫">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/29.png' alt='বিজ্ঞাপন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বিজ্ঞাপন-৬">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/30.png' alt='বিজ্ঞাপন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বাফেলো-১">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/31.png' alt='বাফেলো'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বাফেলো-২">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/32.png' alt='বাফেলো'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বিজ্ঞাপন-৭">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/33.png' alt='বিজ্ঞাপন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বাফেলো-৩">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/34.png' alt='বাফেলো'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বিজ্ঞাপন-৮">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/35.png' alt='বিজ্ঞাপন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বাফেলো-৪">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/36.png' alt='বাফেলো'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="বিজ্ঞাপন-৯">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/37.png' alt='বিজ্ঞাপন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="প্রবাস">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/38.png' alt='প্রবাস'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="ইমিগ্রেশন">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/39.png' alt='ইমিগ্রেশন'/>");
+                                            </script>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a class="<?php if ($_SERVER['REQUEST_URI'] == "/%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87%E0%A6%B0_%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE") echo "current"; ?>"
+                                           data-id="1394" data-alias="আজকের-পত্রিকা"
+                                           data-page="4"
+                                           href="শেষের-পাতা">
+                                            <script>
+                                                document.write("<img src='paper_image/thumbnail_image/" + getCookie("date") + "/40.png' alt='শেষের পাতা'/>");
                                             </script>
                                         </a>
                                     </div>
@@ -474,7 +713,7 @@
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="current pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="1"
-                                                                href="প্রথম_পাতা">
+                                                                href="প্রথম-পাতা">
                                                             <script>
                                                                 document.write("<img src='paper_image/box_image/" + getCookie("date") + "/1.png' alt='প্রথম পাতা'/>");
                                                             </script>
@@ -484,99 +723,99 @@
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="ইমিগ্রেশনের_আদ্যপান্ত">
+                                                                href="সম্পাদকীয়">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/2.png' alt='ইমিগ্রেশনের আদ্যপান্ত'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/2.png' alt='সম্পাদকীয়'/>");
                                                             </script>
                                                         </a>
-                                                        <div>ইমিগ্রেশনের আদ্যপান্ত</div>
+                                                        <div>সম্পাদকীয়</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="নিউ_ইয়র্ক_ট্যাক্সেশন">
+                                                                href="আন্তর্জাতিক">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/3.png' alt='নিউইয়র্ক ট্যাক্সেশন'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/3.png' alt='আন্তর্জাতিক'/>");
                                                             </script>
                                                         </a>
-                                                        <div>নিউইয়র্ক ট্যাক্সেশন</div>
+                                                        <div>আন্তর্জাতিক</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="ইসলামিক_বার্তা">
+                                                                href="সাহিত্য-সম্ভার">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/4.png' alt='ইসলামিক বার্তা'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/4.png' alt='সাহিত্য সম্ভার'/>");
                                                             </script>
                                                         </a>
-                                                        <div>ইসলামিক বার্তা</div>
+                                                        <div>সাহিত্য সম্ভার</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="3"
+                                                                href="ব্যবসা-বাণিজ্য">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/5.png' alt='ব্যবসা বাণিজ্য'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>ব্যবসা বাণিজ্য</div>
                                                     </div>
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="অন্যান্য_খবর-৫">
+                                                                href="তথ্য-ও-প্রযুক্তি">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/5.png' alt='অন্যান্য খবর - ৫'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/6.png' alt='তথ্য ও প্রযুক্তি'/>");
                                                             </script>
                                                         </a>
-                                                        <div>অন্যান্য খবর - ৫</div>
+                                                        <div>তথ্য ও প্রযুক্তি</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="অন্যান্য_খবর-৬">
+                                                                href="ভ্রমন-বিলাস">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/6.png' alt='অন্যান্য খবর - ৬'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/7.png' alt='ভ্রমন বিলাস'/>");
                                                             </script>
                                                         </a>
-                                                        <div>অন্যান্য খবর - ৬</div>
+                                                        <div>ভ্রমন বিলাস</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="ব্যাবসায়-বানিজ্য">
+                                                                href="বিজ্ঞাপন-১">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/7.png' alt='ব্যাবসায় বানিজ্য'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/8.png' alt='বিজ্ঞাপন'/>");
                                                             </script>
                                                         </a>
-                                                        <div>ব্যাবসায় বানিজ্য</div>
+                                                        <div>বিজ্ঞাপন</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="4"
-                                                                href="সাস্থ্য_সুরক্ষা">
+                                                                href="স্বাস্থ্য-সুরক্ষা">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/8.png' alt='সাস্থ্য সুরক্ষা'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/9.png' alt='স্বাস্থ্য সুরক্ষা'/>");
                                                             </script>
                                                         </a>
-                                                        <div>সাস্থ্য সুরক্ষা</div>
+                                                        <div>স্বাস্থ্য সুরক্ষা</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="current pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="1"
-                                                                href="খেলার_পাতা">
-                                                            <img
-                                                                    src="paper_image/box_image/<?php echo $_COOKIE['date'] . '/'; ?>9.png"
-                                                                    alt="খেলার পাতা"/>
+                                                                href="খেলাধুলা">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/10.png' alt='খেলাধুলা'/>");
+                                                            </script>
                                                         </a>
-                                                        <div>খেলার পাতা</div>
+                                                        <div>খেলাধুলা</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="চাকরির_খবর">
-                                                            <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/10.png' alt='চাকরির খবর'/>");
-                                                            </script>
-                                                        </a>
-                                                        <div>চাকরির খবর</div>
-                                                    </div>
-                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
-                                                                class="pagethumb thumbnail" data-id="1394"
-                                                                data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="বিজ্ঞাপন">
+                                                                href="বিজ্ঞাপন-২">
                                                             <script>
                                                                 document.write("<img src='paper_image/box_image/" + getCookie("date") + "/11.png' alt='বিজ্ঞাপন'/>");
                                                             </script>
@@ -586,51 +825,300 @@
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="ভ্রমন_বিলাস">
+                                                                href="বাংলাদেশ">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/12.png' alt='ভ্রমন বিলাস'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/12.png' alt='বাংলাদেশ'/>");
                                                             </script>
                                                         </a>
-                                                        <div>ভ্রমন বিলাস</div>
+                                                        <div>বাংলাদেশ</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="3"
+                                                                href="বিজ্ঞাপন-৩">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/13.png' alt='বিজ্ঞাপন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিজ্ঞাপন</div>
                                                     </div>
                                                 </div>
                                                 <div class='row'>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="2"
+                                                                href="শিক্ষা">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/14.png' alt='শিক্ষা'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>শিক্ষা</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="2"
+                                                                href="জীবনী">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/15.png' alt='জীবনী'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>জীবনী</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="3"
+                                                                href="আবশ্যক">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/16.png' alt='আবশ্যক'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>আবশ্যক</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বিনোদন">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/17.png' alt='বিনোদন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিনোদন</div>
+                                                    </div><div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="লাইফ-স্টাইল">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/18.png' alt='লাইফ স্টাইল'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>লাইফ স্টাইল</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বিজ্ঞাপন-৪">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/19.png' alt='বিজ্ঞাপন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিজ্ঞাপন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="জাম্প-পেইজ">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/20.png' alt='জাম্প পেইজ'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>জাম্প পেইজ</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="ক্লাসিফাইড-১">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/21.png' alt='ক্লাসিফাইড'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>ক্লাসিফাইড</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="রসুইঘর">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/21.png' alt='রসুইঘর'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>রসুইঘর</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="ক্লাসিফাইড-২">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/22.png' alt='ক্লাসিফাইড'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>ক্লাসিফাইড</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="আইন">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/23.png' alt='আইন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>আইন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
                                                                 href="আপস্টেট">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/13.png' alt='আপস্টেট'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/24.png' alt='আপস্টেট'/>");
                                                             </script>
                                                         </a>
                                                         <div>আপস্টেট</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
-                                                                data-alias="আজকের-পত্রিকা" data-page="2"
-                                                                href="বাফেলো-১৪">
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="রাজনীতি">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/14.png' alt='বাফেলো - ১৪'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/25.png' alt='রাজনীতি'/>");
                                                             </script>
                                                         </a>
-                                                        <div>বাফেলো - ১৪</div>
-                                                    </div>
-                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
-                                                                class="pagethumb thumbnail" data-id="1394"
-                                                                data-alias="আজকের-পত্রিকা" data-page="3"
-                                                                href="বাফেলো-১৫">
-                                                            <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/15.png' alt='বাফেলো - ১৫'/>");
-                                                            </script>
-                                                        </a>
-                                                        <div>বাফেলো - ১৫</div>
+                                                        <div>রাজনীতি</div>
                                                     </div>
                                                     <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
                                                                 class="pagethumb thumbnail" data-id="1394"
                                                                 data-alias="আজকের-পত্রিকা" data-page="4"
-                                                                href="শেষের_পাতা">
+                                                                href="অপরাধ">
                                                             <script>
-                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/16.png' alt='শেষের পাতা'/>");
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/26.png' alt='অপরাধ'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>অপরাধ</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="ইসলামিক-বার্তা">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/27.png' alt='ইসলামিক বার্তা'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>ইসলামিক বার্তা</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বিজ্ঞাপন-৫">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/28.png' alt='বিজ্ঞাপন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিজ্ঞাপন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বিজ্ঞাপন-৬">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/29.png' alt='বিজ্ঞাপন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিজ্ঞাপন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বাফেলো-১">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/30.png' alt='বাফেলো'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বাফেলো</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বাফেলো-২">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/31.png' alt='বাফেলো'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বাফেলো</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বাফেলো-২">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/32.png' alt='বাফেলো'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বাফেলো</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বিজ্ঞাপন-৭">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/33.png' alt='বিজ্ঞাপন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিজ্ঞাপন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বাফেলো-৩">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/34.png' alt='বাফেলো'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বাফেলো</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বিজ্ঞাপন-৮">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/35.png' alt='বিজ্ঞাপন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিজ্ঞাপন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বাফেলো-৪">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/36.png' alt='বাফেলো'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বাফেলো</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="বিজ্ঞাপন-৯">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/37.png' alt='বিজ্ঞাপন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>বিজ্ঞাপন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="প্রবাস">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/38.png' alt='প্রবাস'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>প্রবাস</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="ইমিগ্রেশন">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/39.png' alt='ইমিগ্রেশন'/>");
+                                                            </script>
+                                                        </a>
+                                                        <div>ইমিগ্রেশন</div>
+                                                    </div>
+                                                    <div class='col-xs-3 text-center' style='margin-bottom:20px;'><a
+                                                                class="pagethumb thumbnail" data-id="1394"
+                                                                data-alias="আজকের-পত্রিকা" data-page="4"
+                                                                href="শেষের-পাতা">
+                                                            <script>
+                                                                document.write("<img src='paper_image/box_image/" + getCookie("date") + "/40.png' alt='শেষের পাতা'/>");
                                                             </script>
                                                         </a>
                                                         <div>শেষের পাতা</div>

@@ -14,17 +14,17 @@ RewriteRule ^তথ্য-ও-প্রযুক্তি page_6.php [NC,L]
 
 RewriteRule ^ভ্রমন-বিলাস page_7.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_8.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-১ page_8.php [NC,L]
 
 RewriteRule ^স্বাস্থ্য-সুরক্ষা page_9.php [NC,L]
 
 RewriteRule ^খেলাধুলা page_10.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_11.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-২ page_11.php [NC,L]
 
 RewriteRule ^বাংলাদেশ page_12.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_13.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-৩ page_13.php [NC,L]
 
 RewriteRule ^শিক্ষা page_14.php [NC,L]
 
@@ -36,15 +36,15 @@ RewriteRule ^বিনোদন page_17.php [NC,L]
 
 RewriteRule ^লাইফ-স্টাইল page_18.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_19.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-৪ page_19.php [NC,L]
 
 RewriteRule ^জাম্প-পেইজ page_20.php [NC,L]
 
-RewriteRule ^ক্লাসিফাইড page_21.php [NC,L]
+RewriteRule ^ক্লাসিফাইড-১ page_21.php [NC,L]
 
 RewriteRule ^রসুইঘর page_22.php [NC,L]
 
-RewriteRule ^ক্লাসিফাইড page_23.php [NC,L]
+RewriteRule ^ক্লাসিফাইড-২ page_23.php [NC,L]
 
 RewriteRule ^আইন page_24.php [NC,L]
 
@@ -56,23 +56,23 @@ RewriteRule ^অপরাধ page_27.php [NC,L]
 
 RewriteRule ^ইসলামিক-বার্তা page_28.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_29.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-৫ page_29.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_30.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-৬ page_30.php [NC,L]
 
-RewriteRule ^বাফেলো page_31.php [NC,L]
+RewriteRule ^বাফেলো-১ page_31.php [NC,L]
 
-RewriteRule ^বাফেলো page_32.php [NC,L]
+RewriteRule ^বাফেলো-২ page_32.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_33.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-৭ page_33.php [NC,L]
 
-RewriteRule ^বাফেলো page_34.php [NC,L]
+RewriteRule ^বাফেলো-৩ page_34.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_35.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-৮ page_35.php [NC,L]
 
-RewriteRule ^বাফেলো page_36.php [NC,L]
+RewriteRule ^বাফেলো-৪ page_36.php [NC,L]
 
-RewriteRule ^বিজ্ঞাপন page_37.php [NC,L]
+RewriteRule ^বিজ্ঞাপন-৯ page_37.php [NC,L]
 
 RewriteRule ^প্রবাস page_38.php [NC,L]
 
