@@ -5,7 +5,7 @@ $db_handle = new DBController();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>অন্যান্য খবর - নিউইয়র্ক বাংলা পোস্ট ইপেপার</title>
+    <title>তথ্য ও প্রযুক্তি - নিউইয়র্ক বাংলা পোস্ট ইপেপার</title>
     <?php require_once 'includes/libary.php'; ?>
 </head>
 <body>
@@ -17,13 +17,13 @@ $db_handle = new DBController();
     <div class="col-xs-9">
         <div class="title-header clearfix">
 
-            <h2 class="title-heading f-light">অন্যান্য খবর</h2>
+            <h2 class="title-heading f-light">তথ্য ও প্রযুক্তি</h2>
 
         </div>
         <div class="seperator_15"></div>
         <script>
             document.write("<a class='thumbnail imagethumb' target='_blank' href='paper_image/page_image/" + getCookie("date") + "/6.png'>" +
-                "<img src='paper_image/page_image/" + getCookie("date") + "/6.png' alt='অন্যান্য খবর'/>" +
+                "<img src='paper_image/page_image/" + getCookie("date") + "/6.png' alt='তথ্য ও প্রযুক্তি'/>" +
                 "</a>");
         </script>
     </div>
